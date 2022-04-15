@@ -1,5 +1,6 @@
 const colors = ["2D8CD5", "#904EAD", "EEBC11"];
 
+// 브라우저용
 if (window.innerWidth < 500) {
     window.document.bgColor = colors[0];
 } else if (window.innerWidth < 700) {
@@ -7,6 +8,9 @@ if (window.innerWidth < 500) {
 } else {
     window.document.bgColor = colors[2];
 }
+
+// 제출용
+// window.document.bgColor = colors[0];
 
 function resizeHandleBgColor() {
     if (window.innerWidth < 500) {
