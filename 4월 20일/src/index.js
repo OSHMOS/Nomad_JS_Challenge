@@ -17,4 +17,4 @@ setInterval(function() {
         Math.floor((gap % (1000 * 60)) / 1000)
     ).padStart(2, '0');
     clockTitle.innerHTML = `${day}d ${hour}h ${min}m ${sec}s`;
-  }, 1000);
+}, 1000);
